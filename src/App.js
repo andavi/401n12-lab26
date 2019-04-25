@@ -1,12 +1,12 @@
 import React from 'react'; // const React = require('react');
 import Header from './Header';
 
+
+
 export default class App extends React.Component {
 
-	constructor(props) { // Vinicio - think about props as html attributes
-		// Vinicio - everything we add as an attribute in JSX will
-		// come here as a value in the props object
-		super(props); // Vinicio - super is React.Component's constructor
+	constructor(props) {
+		super(props);
 		this.state = {};
 		this.state.message = 'Kali is the cutest';
 		this.state.counter = 0;
@@ -33,7 +33,6 @@ export default class App extends React.Component {
 	};
 
 	handleCounterChange = (event) => {
-		// Vinicio - this saves the value in a closure
 		const value = event.target.value;
 		this.setState(() => {
 			return {
@@ -44,10 +43,6 @@ export default class App extends React.Component {
 
 
 	render() {
-		// Vinicio - here I could have as much logic as I need before I render
-		// Vinicio - render will ALWAYS return JSX
-		// Vinicio - Every time I visit a new cat element, I'm going to return
-		// JSX
 		const cats = ['Sir Gregor', 'The Hound', 'Khal Basil'];
 		return(
 			<main>

@@ -1,32 +1,11 @@
 
-clearB 26
-[![Build Status](https://travis-ci.org/vladimirsan/cf-travis-deployment.svg?branch=master)](https://travis-ci.org/vladimirsan/cf-travis-deployment)
+# Lab 26
 
 ### Author: Andrew Davis
 
 ### Links and Resources
-* [repo](https://github.com)
-* [travis](https://travis-ci.com/vladimirsan/401n12-lab0)
-* [back-end](https://lab0-401n12.herokuapp.com/)
+* [repo](https://github.com/andavi/401n12-lab26)
 
 ### Modules
-#### `greet.js`
-##### Exported Values and Methods
-
-###### `greet() -> string`
-
-#### `arithmetic.js`
-##### Exported Values and Methods
-
-###### `add(...numbers) -> number`
-###### `subtract(...numbers) -> number`
-###### `multiply(...numbers) -> number`
-###### `divide(...numbers) -> number`
-
-
-#### Tests
-* To run tests, please use the `npm run test` command.
-
-#### UML
-![UML](uml.png)
-
+* [cowsay](https://www.npmjs.com/package/cowsay)
+* [fortune](https://www.npmjs.com/package/fortune)
