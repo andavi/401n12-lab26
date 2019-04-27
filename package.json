@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cowsay": "^1.4.0",
     "cowsay-browser": "^1.1.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
