@@ -8,4 +8,4 @@
 
 ### Modules
 * [cowsay](https://www.npmjs.com/package/cowsay)
-* [fortune](https://www.npmjs.com/package/fortune)
+* [sun-tzu-quotes](https://www.npmjs.com/package/sun-tzu-quotes)
