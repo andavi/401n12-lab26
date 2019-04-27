@@ -14,7 +14,7 @@ export default class App extends React.Component {
 	}
 
 	handleNewQuote = () => {
-		const newQuote = props.sunTzu();
+		const newQuote = sunTzu();
 		this.setState(previousState => {
 			return previousState.quote = newQuote;
 		});
@@ -27,7 +27,7 @@ export default class App extends React.Component {
 			<main>
 				<Header/>
 				<p> I'm going to give you a piece of wisdom from one of the great masters of warfare. Please use resposibly. </p>
-				<p> The knowledge-bomb is: {this.state.quote} </p>
+				<p> Sun Tzu says: {this.state.quote} </p>
 				<button onClick={this.handleNewQuote}> Get more wisdom of war </button>
 			</main>
 		);
